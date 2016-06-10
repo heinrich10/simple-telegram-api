@@ -1,0 +1,25 @@
+{
+	"extends": "eslint:recommended",
+     "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+	"ecmaFeatures": {
+		"blockBindings": true,
+		"forOf": true,
+		"classes": true,
+		"generators": true
+	},
+	"rules": {
+		"global-require": 2
+	},
+	"globals": {
+		"require": true,
+		"console": false,
+		"module": false
+	}
+
+}

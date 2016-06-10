@@ -1,0 +1,29 @@
+{
+  "name": "simple-telegrambot-api",
+  "version": "1.0.0",
+  "description": "simple telegram api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinrich10/simple-telegram-api.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "api"
+  ],
+  "author": "heinrich10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heinrich10/simple-telegram-api/issues"
+  },
+  "homepage": "https://github.com/heinrich10/simple-telegram-api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "co": "^4.6.0",
+    "request": "^2.72.0"
+  }
+}
